@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NGO </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <h1>NGO</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#volunteer">Volunteer</a>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+    <!-- home section -->
+
+        <section id="home" class="home-section">
+            <div class="content">
+            <h2>Empowering Communities, Changing Lives</h2>
+            <p>Join us in making a difference! We are a non-profit organization committed to improving lives and <br> empowering communities through education, health, and sustainability programs.</p>
+            </div>
+        </section>
+
+
+    <!-- about section -->
+
+        <section id="about" class="about-section">
+            <div class="content">
+            <h2>About Us</h2>
+            <p>
+                Our NGO was founded in 2020 with the mission to uplift underprivileged communities. 
+                We focus on providing education, healthcare, and sustainable development opportunities.
+                Our dedicated team and volunteers work tirelessly to create positive change and build a better future.
+            </p>
+            </div>
+            <div class="img"><img src="assets/img/2.jpg" alt=""></div>
+        </section>
+
+    <!-- volunteer section -->
+        <section id="volunteer" class="volunteer-section">
+            <h2>Volunteer With Us</h2>
+            <form id="volunteer-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="interest">Why do you want to volunteer?</label>
+                <textarea id="interest" name="interest" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="form-message"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Our NGO. All rights reserved.</p>
+    </footer>
+    <script src="assets/app.js"></script>
+</body>
+</html>
